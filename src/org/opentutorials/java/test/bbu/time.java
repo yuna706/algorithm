@@ -20,6 +20,9 @@ public class time {
 		}
 		
 		System.out.println("일어날 시간은" + user_h + "시간" + user_m + "분 후입니다.");
+		
+		
+		// 시스템에게 현재 시간 + 몇시간 후 웅앵 더한 시간 알아내고 시스템 시간이 그 시간과 일치하면 알람 울리기
 	}
 	
 	public static long hour(int user_h) {
