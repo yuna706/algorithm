@@ -16,7 +16,7 @@ public class variabletest {
 		byte b = 120; //-128 ~ 127
 		short s = 30000; //-32,786 ~ 32,767
 		int i = 21; //-21억 ~ 21억
-		long l = 900; //-900경 ~ 900경
+		long l = 12345678900l; //-900경 ~ 900경	int의 범위에서 벗어날 경우 숫자뒤에 l, L 붙여야 롱형인 걸 앎
 		
 		//실수형 float, double
 		float f = 3.5f; //3.4 x 10e-38 ~ 3.4 x 10e38
